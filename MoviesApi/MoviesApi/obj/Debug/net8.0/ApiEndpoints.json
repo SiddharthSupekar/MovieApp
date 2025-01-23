@@ -1,0 +1,179 @@
+[
+  {
+    "ContainingType": "MoviesApi.Controllers.MovieController",
+    "Method": "addMovie",
+    "RelativePath": "api/Movie/add-movie",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movieName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "releaseDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "posterImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "genre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MoviesApi.Controllers.MovieController",
+    "Method": "deleteMovie",
+    "RelativePath": "api/Movie/delete-movie",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movieId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MoviesApi.Controllers.MovieController",
+    "Method": "getAllMovies",
+    "RelativePath": "api/Movie/get-all-movies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MoviesApi.Controllers.MovieController",
+    "Method": "getSearchMovies",
+    "RelativePath": "api/Movie/get-searched-movies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movieTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "apiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MoviesApi.Controllers.MovieController",
+    "Method": "updateMovie",
+    "RelativePath": "api/Movie/update-movie",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movieId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "movieName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "releaseDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "posterImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "genre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MoviesApi.Controllers.UserController",
+    "Method": "addUser",
+    "RelativePath": "api/User/add-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "App.Core.Dtos.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MoviesApi.Controllers.UserController",
+    "Method": "getRoles",
+    "RelativePath": "api/User/get-roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MoviesApi.Controllers.UserController",
+    "Method": "userLogin",
+    "RelativePath": "api/User/user-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "App.Core.Dtos.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MoviesApi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MoviesApi.WeatherForecast, MoviesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

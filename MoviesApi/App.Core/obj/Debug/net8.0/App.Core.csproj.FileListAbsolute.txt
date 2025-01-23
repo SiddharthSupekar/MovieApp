@@ -1,0 +1,15 @@
+C:\Users\siddharthsupekar\source\repos\MoviesApi\App.Core\bin\Debug\net8.0\App.Core.deps.json
+C:\Users\siddharthsupekar\source\repos\MoviesApi\App.Core\bin\Debug\net8.0\App.Core.dll
+C:\Users\siddharthsupekar\source\repos\MoviesApi\App.Core\bin\Debug\net8.0\App.Core.pdb
+C:\Users\siddharthsupekar\source\repos\MoviesApi\App.Core\bin\Debug\net8.0\Domain.dll
+C:\Users\siddharthsupekar\source\repos\MoviesApi\App.Core\bin\Debug\net8.0\Domain.pdb
+C:\Users\siddharthsupekar\source\repos\MoviesApi\App.Core\obj\Debug\net8.0\App.Core.csproj.AssemblyReference.cache
+C:\Users\siddharthsupekar\source\repos\MoviesApi\App.Core\obj\Debug\net8.0\App.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\siddharthsupekar\source\repos\MoviesApi\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfoInputs.cache
+C:\Users\siddharthsupekar\source\repos\MoviesApi\App.Core\obj\Debug\net8.0\App.Core.AssemblyInfo.cs
+C:\Users\siddharthsupekar\source\repos\MoviesApi\App.Core\obj\Debug\net8.0\App.Core.csproj.CoreCompileInputs.cache
+C:\Users\siddharthsupekar\source\repos\MoviesApi\App.Core\obj\Debug\net8.0\App.Core.csproj.Up2Date
+C:\Users\siddharthsupekar\source\repos\MoviesApi\App.Core\obj\Debug\net8.0\App.Core.dll
+C:\Users\siddharthsupekar\source\repos\MoviesApi\App.Core\obj\Debug\net8.0\refint\App.Core.dll
+C:\Users\siddharthsupekar\source\repos\MoviesApi\App.Core\obj\Debug\net8.0\App.Core.pdb
+C:\Users\siddharthsupekar\source\repos\MoviesApi\App.Core\obj\Debug\net8.0\ref\App.Core.dll

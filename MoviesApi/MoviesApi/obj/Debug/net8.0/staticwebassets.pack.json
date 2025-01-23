@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\siddharthsupekar\\source\\repos\\MoviesApi\\MoviesApi\\wwwroot\\uploads\\moviePosters\\12eb4eb3-e785-44cd-9a7e-c2e27afd1901_ProfilePictureSample3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\moviePosters\\12eb4eb3-e785-44cd-9a7e-c2e27afd1901_ProfilePictureSample3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\siddharthsupekar\\source\\repos\\MoviesApi\\MoviesApi\\wwwroot\\uploads\\moviePosters\\3f4f1719-a34f-4881-9b16-11c59c993a8f_ProfilePictureSample2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\moviePosters\\3f4f1719-a34f-4881-9b16-11c59c993a8f_ProfilePictureSample2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\siddharthsupekar\\source\\repos\\MoviesApi\\MoviesApi\\wwwroot\\uploads\\moviePosters\\41180a05-cc88-4c39-9465-02398788c155_ProfilePictureSample3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\moviePosters\\41180a05-cc88-4c39-9465-02398788c155_ProfilePictureSample3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\siddharthsupekar\\source\\repos\\MoviesApi\\MoviesApi\\wwwroot\\uploads\\moviePosters\\844028d1-3656-4315-bf59-fcc9b24bd43d_ProfilePictureSAmple4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\moviePosters\\844028d1-3656-4315-bf59-fcc9b24bd43d_ProfilePictureSAmple4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\siddharthsupekar\\source\\repos\\MoviesApi\\MoviesApi\\wwwroot\\uploads\\moviePosters\\894ade3f-2c8f-46b7-a224-942e01f4efaa_ProfilePictureSAmple4.jpg",
+      "PackagePath": "staticwebassets\\uploads\\moviePosters\\894ade3f-2c8f-46b7-a224-942e01f4efaa_ProfilePictureSAmple4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\siddharthsupekar\\source\\repos\\MoviesApi\\MoviesApi\\wwwroot\\uploads\\moviePosters\\94b8821a-f5de-43a9-98ee-89919c435538_ProfilePictureSample3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\moviePosters\\94b8821a-f5de-43a9-98ee-89919c435538_ProfilePictureSample3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\siddharthsupekar\\source\\repos\\MoviesApi\\MoviesApi\\wwwroot\\uploads\\moviePosters\\a3868bb7-5c04-4889-8afd-996da156256e_ProfilePictureSample3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\moviePosters\\a3868bb7-5c04-4889-8afd-996da156256e_ProfilePictureSample3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\siddharthsupekar\\source\\repos\\MoviesApi\\MoviesApi\\wwwroot\\uploads\\moviePosters\\bda583ea-662f-40f8-87cb-9827feebee49_ProfilePictureSample2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\moviePosters\\bda583ea-662f-40f8-87cb-9827feebee49_ProfilePictureSample2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\siddharthsupekar\\source\\repos\\MoviesApi\\MoviesApi\\wwwroot\\uploads\\moviePosters\\c6d66c38-9f2e-45d8-b227-0bb4cc4af75c_ProfilePictureSample2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\moviePosters\\c6d66c38-9f2e-45d8-b227-0bb4cc4af75c_ProfilePictureSample2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\siddharthsupekar\\source\\repos\\MoviesApi\\MoviesApi\\wwwroot\\uploads\\moviePosters\\dd549d11-7922-4500-82d3-49d75d6234da_ProfilePictureSample2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\moviePosters\\dd549d11-7922-4500-82d3-49d75d6234da_ProfilePictureSample2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\siddharthsupekar\\source\\repos\\MoviesApi\\MoviesApi\\wwwroot\\uploads\\moviePosters\\defaultPoster.jpg",
+      "PackagePath": "staticwebassets\\uploads\\moviePosters\\defaultPoster.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MoviesApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MoviesApi.props",
+      "PackagePath": "build\\MoviesApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MoviesApi.props",
+      "PackagePath": "buildMultiTargeting\\MoviesApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MoviesApi.props",
+      "PackagePath": "buildTransitive\\MoviesApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

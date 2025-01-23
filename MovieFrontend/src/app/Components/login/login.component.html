@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Title Section -->
+    <div class="logo">
+        <div class="big-m">M</div>
+    </div>
+  
+
+    <div class="text-center mt-4 name">Login</div>
+  
+    <form [formGroup]="loginForm" class="p-3 mt-3">
+        <div class="form-field d-flex align-items-center"
+            [ngClass]="{ 'invalid': loginForm.get('email')?.invalid && loginForm.get('email')?.touched }">
+            <span class="far fa-user"></span>
+            <input type="text" name="email" id="email" placeholder="email" formControlName="email" />
+        </div>
+        <div *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched" class="error-message">
+            Username is required.
+        </div>
+  
+        <div class="form-field d-flex align-items-center"
+            [ngClass]="{ 'invalid': loginForm.get('password')?.invalid && loginForm.get('password')?.touched }">
+            <span class="fas fa-key"></span>
+            <input type="password" name="password" id="pwd" placeholder="Password" formControlName="password" />
+        </div>
+        <div *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched" class="error-message">
+            Password is required.
+        </div>
+    </form>
+  
+    <button class="btn mt-3" (click)="forVerifying()" [disabled]="loginForm.invalid">Login</button>
+  
+    <div class="text-center fs-6 mt-3">
+        <a routerLink="/forgot-password" class="text-link">Forgot password?</a>
+    </div>
+  
+    <div class="text-center fs-6 mt-2">
+        Don't have an account?
+        <a routerLink="/register" class="text-link">Sign up</a>
+    </div>
+  </div>
+</body>
+</html>

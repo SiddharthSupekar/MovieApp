@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h2 class="col-md-3" style="font-family: 'Lato',sans-serif; padding-bottom: 20px;">Movie List</h2>
+            <div class="col-md-6">
+                <!-- <form [formGroup]="searchItem" class="form-inline my-2 my-lg-0 mr-auto" >
+                    <div class="input-group">
+                        <input type="text" class="form-control" formControlName="searchTitle" placeholder="Search..." >
+                        <button class="btn btn-outline-light" type="submit"  >
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form> -->
+                <div class="row">
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" placeholder="Search..." [(ngModel)]="searchInput" (ngModelChange)="onSearchChange($event)">
+
+                    </div>
+                    <div class="col-md-3">
+                        <button class="btn btn-outline-light" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+            <button class="btn btn-danger col-md-3 " style="height: 40px;" (click)="openMovieAddModal()" *ngIf="isAdmin()" >Add Movie</button>
+        </div>
+        <div class="movie-grid" *ngIf="filteredMovies.length > 0; else empty">
+
+            <div class="movie-card" *ngFor="let movie of filteredMovies">
+                <img [src]="'https://localhost:7014/'+movie.posterImage" alt="Movie Poster" class="poster" />
+                <div class="info">
+                    <h3>{{ movie.movieName }}</h3>
+                    <p>Year: {{ movie.releaseDate }}</p>
+                    <p>Genre: {{ movie.genre }}</p>
+                    <div class="row">
+                        <div class="button-group">
+                            <button class="btn btn-warning" *ngIf="isAdmin()" (click)="onUpdate(movie)" >Update</button>
+                            <button class="btn btn-danger" *ngIf="isAdmin()" (click)="onDelete(movie.movieId)" >Delete</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- =========================================update modal==================================================== -->
+    <div class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="updateModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Edit Movie</h5>
+                </div>
+                <div class="modal-body">
+                    <form [formGroup]="movieForm">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- <img [src]="'https://localhost:7040/' + userProfile.profileImage" alt="Profile Image" class="profile-image" /> -->
+                                <label for="fileInput">
+                                    <img  [src]="'https://localhost:7014/' + (selectedFile ? selectedFile.name : currentMovieImage)" 
+                                          alt="Profile Image" 
+                                          class="profile-image"
+                                          style="justify-content: center; display: flex;"
+                                      />
+                                    <i class="fas fa-edit"></i>
+                                </label>
+                                <input type="file" id="fileInput" (change)="onFileSelected($event)" hidden />
+                            </div>
+                        </div>
+        
+                        <div class="form-grid">
+                            <div class="mb-3">
+                                <label for="movieName" class="form-label">Movie Name</label>
+                                <input type="text" formControlName="movieName" id="movieName" class="form-control" placeholder="Movie Name" />
+                                <div *ngIf="isFieldInvalid('movieName')" class="text-danger">
+                                    Movie Name is required.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="releaseDate" class="form-label">Release Year</label>
+                                <input type="text" formControlName="releaseDate" id="releaseDate" placeholder="YYYY" class="form-control"  maxlength="4" appPhone [max]="currentYear" [min]="1900" />
+                                <div *ngIf="isFieldInvalid('releaseDate')" class="text-danger">
+                                    Invalid Release Year(Its required and must be after 1900 and before current year) .
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="genre" class="form-label">Genre</label>
+                                <input type="text" formControlName="genre" id="genre" placeholder="Genre" class="form-control" />
+                                <div *ngIf="isFieldInvalid('genre')" class="text-danger">
+                                    Genre is required.
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="closeMovieUpdateModal()">Close</button>
+                    <button type="button" class="btn btn-primary" (click)="updateMovie()">Update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =========================================Add modal==================================================== -->
+    <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="addModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Add Movie</h5>
+                </div>
+                <div class="modal-body">
+                    <form [formGroup]="movieForm">
+
+                            
+
+        
+                        <div class="form-grid">
+                            <div class="mb-3">
+                                <label for="movieName" class="form-label">Movie Name</label>
+                                <input type="text" formControlName="movieName" id="movieName" placeholder="Movie Name" class="form-control" />
+                                <div *ngIf="isFieldInvalid('movieName')" class="text-danger">
+                                    Movie Name is required.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="releaseDate" class="form-label">Release Year</label>
+                                <input type="text" formControlName="releaseDate" id="releaseDate" placeholder="YYYY" class="form-control" maxlength="4" appPhone [max]="currentYear"  />
+                                <div *ngIf="isFieldInvalid('releaseDate')" class="text-danger">
+                                    Invalid Release Year(Its required and must be after 1900 and before current year) .
+ 
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="genre" class="form-label">Genre</label>
+                                <input type="text" formControlName="genre" id="genre" placeholder="Genre" class="form-control" />
+                                <div *ngIf="isFieldInvalid('genre')" class="text-danger">
+                                    Genre is required.
+                                </div>
+                            </div>
+                            <div >
+                                <!-- <img [src]="'https://localhost:7040/' + userProfile.profileImage" alt="Profile Image" class="profile-image" /> -->
+                                <label for="fileInput">
+                                    <!-- <img  [src]="'https://localhost:7014/' + (selectedFile ? selectedFile.name : currentMovieImage)" 
+                                          alt="Profile Image" 
+                                          class="profile-image"
+                                          style="justify-content: center; display: flex;"
+                                      />
+                                    <i class="fas fa-edit"></i> -->
+                                    MoviePoster
+                                </label>
+                                <input type="file" id="fileInput" class="form-control" (change)="onFileSelected($event)"  />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="closeMovieAddModal()">Close</button>
+                    <button type="button" class="btn btn-primary" (click)="addMovie()">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ng-template #empty>
+        <div class="not-found">
+          <p class="text-danger" style="font-family: 'Lato',sans-serif; font-size: 50px;">No Movies Found</p>
+        </div>
+      </ng-template>
+    
+</body>
+</html>

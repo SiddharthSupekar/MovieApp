@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container mt-5 netflix-theme">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10 col-sm-12">
+            <div class="card p-4 shadow-sm">
+                <h2 class="text-center mb-4 title">Join Movies.io</h2>
+  
+                <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                    <div class="row">
+                        <div class="col-md-12 mb-4" [ngClass]="{'invalid':isFieldInvalid('firstName')}">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input id="firstName" formControlName="firstName" class="form-control" type="text" maxlength="20">
+                            <div *ngIf="isFieldInvalid('firstName')" class="text-danger">
+                                First name is required and should not exceed 20 characters.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input id="lastName" formControlName="lastName" class="form-control" type="text" maxlength="20">
+                            <div *ngIf="isFieldInvalid('lastName')" class="text-danger">
+                                Last name is required and should not exceed 20 characters.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label for="roleId" class="form-label">Role</label>
+                            <select formControlName="roleId" id="roleId" required class="form-select">
+                                <option value="" disabled selected>Select Role</option>
+                                <option *ngFor="let role of roles" [value]="role.roleId">{{ role.roleName }}</option>
+                            </select>
+                            <div *ngIf="isFieldInvalid('roleId')" class="error-message">
+                                Please select a role.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 mb-4">
+                            <label for="email" class="form-label">Email</label>
+                            <input id="email" formControlName="email" class="form-control" type="email">
+                            <div *ngIf="isFieldInvalid('email')" class="text-danger">
+                                Please enter a valid email address.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label for="password" class="form-label">Password</label>
+                            <input id="password" formControlName="password" class="form-control" type="password">
+                            <div *ngIf="isFieldInvalid('password')" class="text-danger">
+                                Required.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label for="cnfPassword" class="form-label">Confirm Password</label>
+                            <input id="cnfPassword" formControlName="cnfPassword" class="form-control" type="password">
+                            <div *ngIf="isFieldInvalid('cnfPassword')" class="text-danger">
+                                Required.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <button type="submit" class="btn btn-danger w-100">Join Now</button>
+                    </div>
+                    <div class="text-center mt-3 already" >
+                        Already have an account?
+                        <a routerLink="/login" class="netflix-link">Sign In</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+</body>
+</html>
