@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vFbptviWz0s=",
+  "dgSpecHash": "VHO16tGrJ9w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\App.Core.csproj",
+  "projectFilePath": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\App.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\siddharthsupekar\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\siddharthsupekar\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",

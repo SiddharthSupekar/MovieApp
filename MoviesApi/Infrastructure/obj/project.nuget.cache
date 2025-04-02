@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rSTk//FywM8=",
+  "dgSpecHash": "QxQw52cV+ds=",
   "success": true,
-  "projectFilePath": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\GitClones\\MovieApp\\MoviesApi\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\siddharthsupekar\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\siddharthsupekar\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

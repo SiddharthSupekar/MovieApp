@@ -5338,11 +5338,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "D:\\GitClones\\MovieApp\\MoviesApi\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "D:\\GitClones\\MovieApp\\MoviesApi\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\siddharthsupekar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\Infrastructure\\obj\\",
+      "outputPath": "D:\\GitClones\\MovieApp\\MoviesApi\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\siddharthsupekar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5360,8 +5360,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\App.Core.csproj": {
-              "projectPath": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\App.Core.csproj"
+            "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\App.Core.csproj": {
+              "projectPath": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\App.Core.csproj"
             }
           }
         }

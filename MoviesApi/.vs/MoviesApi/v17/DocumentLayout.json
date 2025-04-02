@@ -1,89 +1,97 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\",
+  "WorkspaceRootPath": "D:\\GitClones\\MovieApp\\MoviesApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E40F1AD9-D67D-4AB7-973E-15A14D250F17}|MoviesApi\\MoviesApi.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\moviesapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E40F1AD9-D67D-4AB7-973E-15A14D250F17}|MoviesApi\\MoviesApi.csproj|solutionrelative:moviesapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E40F1AD9-D67D-4AB7-973E-15A14D250F17}|MoviesApi\\MoviesApi.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\moviesapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E40F1AD9-D67D-4AB7-973E-15A14D250F17}|MoviesApi\\MoviesApi.csproj|solutionrelative:moviesapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D292F57-25BD-4E1E-BAD6-78C5FF6EEC36}|Infrastructure\\Infrastructure.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D292F57-25BD-4E1E-BAD6-78C5FF6EEC36}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E27DE4D-1BED-4106-82D3-B97D8BBB9F51}|Domain\\Domain.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E27DE4D-1BED-4106-82D3-B97D8BBB9F51}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E27DE4D-1BED-4106-82D3-B97D8BBB9F51}|Domain\\Domain.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\domain\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E27DE4D-1BED-4106-82D3-B97D8BBB9F51}|Domain\\Domain.csproj|solutionrelative:domain\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\app.core\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\app.core\\validators\\movievalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\validators\\movievalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\app.core\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\app.core\\interface\\imoviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\interface\\imoviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\app.core\\interface\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\interface\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\app.core\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\app.core\\apps\\user\\query\\getrolesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\user\\query\\getrolesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\app.core\\apps\\user\\command\\userlogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\user\\command\\userlogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\app.core\\apps\\user\\command\\addusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\user\\command\\addusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\app.core\\apps\\movies\\query\\getsearchmoviequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\movies\\query\\getsearchmoviequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\app.core\\apps\\movies\\query\\getallmoviesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\movies\\query\\getallmoviesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\app.core\\apps\\movies\\command\\updatemoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\movies\\command\\updatemoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\app.core\\apps\\movies\\command\\deletemoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\movies\\command\\deletemoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\app.core\\apps\\movies\\command\\addmoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\movies\\command\\addmoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E40F1AD9-D67D-4AB7-973E-15A14D250F17}|MoviesApi\\MoviesApi.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\moviesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E40F1AD9-D67D-4AB7-973E-15A14D250F17}|MoviesApi\\MoviesApi.csproj|d:\\gitclones\\movieapp\\moviesapi\\moviesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E40F1AD9-D67D-4AB7-973E-15A14D250F17}|MoviesApi\\MoviesApi.csproj|solutionrelative:moviesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D292F57-25BD-4E1E-BAD6-78C5FF6EEC36}|Infrastructure\\Infrastructure.csproj|c:\\users\\siddharthsupekar\\source\\movieapp\\moviesapi\\infrastructure\\migrations\\20250123062046_genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D292F57-25BD-4E1E-BAD6-78C5FF6EEC36}|Infrastructure\\Infrastructure.csproj|d:\\gitclones\\movieapp\\moviesapi\\infrastructure\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D292F57-25BD-4E1E-BAD6-78C5FF6EEC36}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D292F57-25BD-4E1E-BAD6-78C5FF6EEC36}|Infrastructure\\Infrastructure.csproj|d:\\gitclones\\movieapp\\moviesapi\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D292F57-25BD-4E1E-BAD6-78C5FF6EEC36}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E40F1AD9-D67D-4AB7-973E-15A14D250F17}|MoviesApi\\MoviesApi.csproj|d:\\gitclones\\movieapp\\moviesapi\\moviesapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E40F1AD9-D67D-4AB7-973E-15A14D250F17}|MoviesApi\\MoviesApi.csproj|solutionrelative:moviesapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E40F1AD9-D67D-4AB7-973E-15A14D250F17}|MoviesApi\\MoviesApi.csproj|d:\\gitclones\\movieapp\\moviesapi\\moviesapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E40F1AD9-D67D-4AB7-973E-15A14D250F17}|MoviesApi\\MoviesApi.csproj|solutionrelative:moviesapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D292F57-25BD-4E1E-BAD6-78C5FF6EEC36}|Infrastructure\\Infrastructure.csproj|d:\\gitclones\\movieapp\\moviesapi\\infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D292F57-25BD-4E1E-BAD6-78C5FF6EEC36}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E27DE4D-1BED-4106-82D3-B97D8BBB9F51}|Domain\\Domain.csproj|d:\\gitclones\\movieapp\\moviesapi\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E27DE4D-1BED-4106-82D3-B97D8BBB9F51}|Domain\\Domain.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E27DE4D-1BED-4106-82D3-B97D8BBB9F51}|Domain\\Domain.csproj|d:\\gitclones\\movieapp\\moviesapi\\domain\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E27DE4D-1BED-4106-82D3-B97D8BBB9F51}|Domain\\Domain.csproj|solutionrelative:domain\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|d:\\gitclones\\movieapp\\moviesapi\\app.core\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|d:\\gitclones\\movieapp\\moviesapi\\app.core\\validators\\movievalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\validators\\movievalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|d:\\gitclones\\movieapp\\moviesapi\\app.core\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|d:\\gitclones\\movieapp\\moviesapi\\app.core\\interface\\imoviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\interface\\imoviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|d:\\gitclones\\movieapp\\moviesapi\\app.core\\interface\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\interface\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|d:\\gitclones\\movieapp\\moviesapi\\app.core\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|d:\\gitclones\\movieapp\\moviesapi\\app.core\\apps\\user\\query\\getrolesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\user\\query\\getrolesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|d:\\gitclones\\movieapp\\moviesapi\\app.core\\apps\\user\\command\\userlogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\user\\command\\userlogincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|d:\\gitclones\\movieapp\\moviesapi\\app.core\\apps\\user\\command\\addusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\user\\command\\addusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|d:\\gitclones\\movieapp\\moviesapi\\app.core\\apps\\movies\\query\\getsearchmoviequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\movies\\query\\getsearchmoviequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|d:\\gitclones\\movieapp\\moviesapi\\app.core\\apps\\movies\\query\\getallmoviesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\movies\\query\\getallmoviesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|d:\\gitclones\\movieapp\\moviesapi\\app.core\\apps\\movies\\command\\updatemoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\movies\\command\\updatemoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|d:\\gitclones\\movieapp\\moviesapi\\app.core\\apps\\movies\\command\\deletemoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\movies\\command\\deletemoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|d:\\gitclones\\movieapp\\moviesapi\\app.core\\apps\\movies\\command\\addmoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4D071D-33CC-4CFF-88B7-7DC154379957}|App.Core\\App.Core.csproj|solutionrelative:app.core\\apps\\movies\\command\\addmoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D292F57-25BD-4E1E-BAD6-78C5FF6EEC36}|Infrastructure\\Infrastructure.csproj|d:\\gitclones\\movieapp\\moviesapi\\infrastructure\\migrations\\20250123062046_genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D292F57-25BD-4E1E-BAD6-78C5FF6EEC36}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250123062046_genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -94,39 +102,151 @@
       "DocumentGroups": [
         {
           "DockedWidth": 380,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\Domain\\User.cs",
-              "RelativeDocumentMoniker": "Domain\\User.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\Domain\\User.cs",
-              "RelativeToolTip": "Domain\\User.cs",
+              "DocumentIndex": 1,
+              "Title": "MovieDbContext.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\Infrastructure\\MovieDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\MovieDbContext.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\Infrastructure\\MovieDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\MovieDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T10:54:57.634Z"
+              "WhenOpened": "2025-04-02T08:38:20.738Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserValidator.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Validators\\UserValidator.cs",
-              "RelativeDocumentMoniker": "App.Core\\Validators\\UserValidator.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Validators\\UserValidator.cs",
-              "RelativeToolTip": "App.Core\\Validators\\UserValidator.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T10:54:47.052Z"
+              "WhenOpened": "2025-04-02T08:38:18.392Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
+              "Title": "GetRolesQuery.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Apps\\User\\Query\\GetRolesQuery.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Query\\GetRolesQuery.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Apps\\User\\Query\\GetRolesQuery.cs",
+              "RelativeToolTip": "App.Core\\Apps\\User\\Query\\GetRolesQuery.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:15:40.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddUserCommand.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Apps\\User\\Command\\AddUserCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Command\\AddUserCommand.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Apps\\User\\Command\\AddUserCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\User\\Command\\AddUserCommand.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:14:28.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetAllMoviesQuery.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Query\\GetAllMoviesQuery.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Movies\\Query\\GetAllMoviesQuery.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Query\\GetAllMoviesQuery.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Movies\\Query\\GetAllMoviesQuery.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:13:10.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DeleteMovieCommand.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Command\\DeleteMovieCommand.cs",
+              "RelativeDocumentMoniker": "App.Core\\Apps\\Movies\\Command\\DeleteMovieCommand.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Command\\DeleteMovieCommand.cs",
+              "RelativeToolTip": "App.Core\\Apps\\Movies\\Command\\DeleteMovieCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T06:40:10.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\MoviesApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MoviesApi\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\MoviesApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MoviesApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCIAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:10:51.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\MoviesApi\\appsettings.json",
+              "RelativeDocumentMoniker": "MoviesApi\\appsettings.json",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\MoviesApi\\appsettings.json",
+              "RelativeToolTip": "MoviesApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-23T08:59:30.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeDocumentMoniker": "App.Core\\Interface\\IJwtService.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Interface\\IJwtService.cs",
+              "RelativeToolTip": "App.Core\\Interface\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T10:54:38.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\MoviesApi\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "MoviesApi\\Controllers\\MovieController.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\MoviesApi\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "MoviesApi\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T12:54:14.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IMovieDbContext.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Interface\\IMovieDbContext.cs",
+              "RelativeDocumentMoniker": "App.Core\\Interface\\IMovieDbContext.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Interface\\IMovieDbContext.cs",
+              "RelativeToolTip": "App.Core\\Interface\\IMovieDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T10:54:40.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Profiles\\MappingProfile.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Profiles\\MappingProfile.cs",
               "RelativeDocumentMoniker": "App.Core\\Profiles\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Profiles\\MappingProfile.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Profiles\\MappingProfile.cs",
               "RelativeToolTip": "App.Core\\Profiles\\MappingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -135,107 +255,34 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "IMovieDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Interface\\IMovieDbContext.cs",
-              "RelativeDocumentMoniker": "App.Core\\Interface\\IMovieDbContext.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Interface\\IMovieDbContext.cs",
-              "RelativeToolTip": "App.Core\\Interface\\IMovieDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Validators\\UserValidator.cs",
+              "RelativeDocumentMoniker": "App.Core\\Validators\\UserValidator.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Validators\\UserValidator.cs",
+              "RelativeToolTip": "App.Core\\Validators\\UserValidator.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T10:54:40.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IJwtService.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Interface\\IJwtService.cs",
-              "RelativeDocumentMoniker": "App.Core\\Interface\\IJwtService.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Interface\\IJwtService.cs",
-              "RelativeToolTip": "App.Core\\Interface\\IJwtService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T10:54:38.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GetRolesQuery.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Apps\\User\\Query\\GetRolesQuery.cs",
-              "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Query\\GetRolesQuery.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Apps\\User\\Query\\GetRolesQuery.cs",
-              "RelativeToolTip": "App.Core\\Apps\\User\\Query\\GetRolesQuery.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T09:15:40.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AddUserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Apps\\User\\Command\\AddUserCommand.cs",
-              "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Command\\AddUserCommand.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Apps\\User\\Command\\AddUserCommand.cs",
-              "RelativeToolTip": "App.Core\\Apps\\User\\Command\\AddUserCommand.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwE0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T09:14:28.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GetAllMoviesQuery.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Query\\GetAllMoviesQuery.cs",
-              "RelativeDocumentMoniker": "App.Core\\Apps\\Movies\\Query\\GetAllMoviesQuery.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Query\\GetAllMoviesQuery.cs",
-              "RelativeToolTip": "App.Core\\Apps\\Movies\\Query\\GetAllMoviesQuery.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T09:13:10.075Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DeleteMovieCommand.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Command\\DeleteMovieCommand.cs",
-              "RelativeDocumentMoniker": "App.Core\\Apps\\Movies\\Command\\DeleteMovieCommand.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Command\\DeleteMovieCommand.cs",
-              "RelativeToolTip": "App.Core\\Apps\\Movies\\Command\\DeleteMovieCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T06:40:10.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\MoviesApi\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "MoviesApi\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\MoviesApi\\Controllers\\UserController.cs",
-              "RelativeToolTip": "MoviesApi\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCIAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T09:10:51.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\MoviesApi\\appsettings.json",
-              "RelativeDocumentMoniker": "MoviesApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\MoviesApi\\appsettings.json",
-              "RelativeToolTip": "MoviesApi\\appsettings.json",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAIwCQAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-23T08:59:30.46Z"
+              "WhenOpened": "2025-01-23T10:54:47.052Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\User.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\Domain\\User.cs",
+              "RelativeToolTip": "Domain\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T10:54:57.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MovieValidator.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Validators\\MovieValidator.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Validators\\MovieValidator.cs",
               "RelativeDocumentMoniker": "App.Core\\Validators\\MovieValidator.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Validators\\MovieValidator.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Validators\\MovieValidator.cs",
               "RelativeToolTip": "App.Core\\Validators\\MovieValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -243,11 +290,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "20250123062046_genre.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\Infrastructure\\Migrations\\20250123062046_genre.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\Infrastructure\\Migrations\\20250123062046_genre.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250123062046_genre.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\Infrastructure\\Migrations\\20250123062046_genre.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\Infrastructure\\Migrations\\20250123062046_genre.cs",
               "RelativeToolTip": "Infrastructure\\Migrations\\20250123062046_genre.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -255,11 +302,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "MovieDto.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Dtos\\MovieDto.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Dtos\\MovieDto.cs",
               "RelativeDocumentMoniker": "App.Core\\Dtos\\MovieDto.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Dtos\\MovieDto.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Dtos\\MovieDto.cs",
               "RelativeToolTip": "App.Core\\Dtos\\MovieDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -267,11 +314,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\Domain\\Movie.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\Domain\\Movie.cs",
               "RelativeDocumentMoniker": "Domain\\Movie.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\Domain\\Movie.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\Domain\\Movie.cs",
               "RelativeToolTip": "Domain\\Movie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -279,11 +326,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "AddMovieCommand.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Command\\AddMovieCommand.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Command\\AddMovieCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Movies\\Command\\AddMovieCommand.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Command\\AddMovieCommand.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Command\\AddMovieCommand.cs",
               "RelativeToolTip": "App.Core\\Apps\\Movies\\Command\\AddMovieCommand.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAkwHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -291,11 +338,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "UpdateMovieCommand.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Command\\UpdateMovieCommand.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Command\\UpdateMovieCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Movies\\Command\\UpdateMovieCommand.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Command\\UpdateMovieCommand.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Command\\UpdateMovieCommand.cs",
               "RelativeToolTip": "App.Core\\Apps\\Movies\\Command\\UpdateMovieCommand.cs",
               "ViewState": "AgIAAF8AAAAAAAAAAAAkwHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -303,11 +350,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "JwtService.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\Infrastructure\\Services\\JwtService.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\Infrastructure\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Services\\JwtService.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\Infrastructure\\Services\\JwtService.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\Infrastructure\\Services\\JwtService.cs",
               "RelativeToolTip": "Infrastructure\\Services\\JwtService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -315,24 +362,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\MoviesApi\\Controllers\\MovieController.cs",
-              "RelativeDocumentMoniker": "MoviesApi\\Controllers\\MovieController.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\MoviesApi\\Controllers\\MovieController.cs",
-              "RelativeToolTip": "MoviesApi\\Controllers\\MovieController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T12:54:14.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "UserLoginCommand.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Apps\\User\\Command\\UserLoginCommand.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Apps\\User\\Command\\UserLoginCommand.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\User\\Command\\UserLoginCommand.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Apps\\User\\Command\\UserLoginCommand.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Apps\\User\\Command\\UserLoginCommand.cs",
               "RelativeToolTip": "App.Core\\Apps\\User\\Command\\UserLoginCommand.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAA8wE8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -340,11 +374,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "GetSearchMovieQuery.cs",
-              "DocumentMoniker": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Query\\GetSearchMovieQuery.cs",
+              "DocumentMoniker": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Query\\GetSearchMovieQuery.cs",
               "RelativeDocumentMoniker": "App.Core\\Apps\\Movies\\Query\\GetSearchMovieQuery.cs",
-              "ToolTip": "C:\\Users\\siddharthsupekar\\source\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Query\\GetSearchMovieQuery.cs",
+              "ToolTip": "D:\\GitClones\\MovieApp\\MoviesApi\\App.Core\\Apps\\Movies\\Query\\GetSearchMovieQuery.cs",
               "RelativeToolTip": "App.Core\\Apps\\Movies\\Query\\GetSearchMovieQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswDoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
